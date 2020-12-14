@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>
+			Create New User Account
+		</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+	</head>
+	<body>
+		<img class="logo" src="images/shutterstock_22.jpg"/> 
+		
+		 <nav>
+      <ul id="menu">
+        <li><a href="index.html"><span><span>About</span></span></a></li>
+        <li><a href="offers.html"><span><span>Offers</span></span></a></li>
+        <li><a href="book.html"><span><span>Book</span></span></a></li>
+        <li id="menu_active"><a href="services.html"><span><span>Services</span></span></a></li>
+        <li><a href="safety.html"><span><span>Safety</span></span></a></li>
+        <li class="end"><a href="contacts.html"><span><span>Contacts</span></span></a></li>
+      </ul>
+    </nav>
+		<br>
+		<form class="center_form" action="new_user_form_handler.php" method="POST" id="new_user_from">
+			<h2><i class="fa fa-user-plus" aria-hidden="true"></i> CREATE NEW USER ACCOUNT</h2>
+			<br>
+	<style type:"text/css">
+			.regpage{
+					
+				 width:500px;
+				 height:600px;
+				 background:#ffff66;
+				 color: #660033; 
+				 top:70%;
+				 left:50%;
+				 position: absolute;
+				 transform: translate(-50%,-50%);
+				 box-sizing: border-box; 
+				 border:4px  solid red;
+				 padding: 30px 30px;
+			}
+			p{
+			color:#000000;
+			}
+			h1{
+			color:#cc0066;
+			}
+  </style>
+				 <div class="regpage">
+                                                        <body bgcolor="#996600">
+			<table cellpadding='10'>
+				<strong>ENTER LOGIN DETAILS</strong>
+				<tr>
+					<td>Enter a valid username  </td>
+					<td><input type="text" name="username" required><br><br></td>
+				</tr>
+				<tr>
+					<td>Enter your desired password  </td>
+					<td><input type="password" name="password" required><br><br></td>
+				</tr>
+				<tr>
+					<td>Enter your email ID</td>
+					<td><input type="text" name="email" required><br><br></td>
+				</tr>
+			</table>
+			<br>
+			<table cellpadding='10'>
+				<strong>ENTER CUSTOMER'S PERSONAL DETAILS</strong>
+				<tr>
+					<td>Enter your name  </td>
+					<td><input type="text" name="name" required><br><br></td>
+				</tr>
+				<tr>
+					<td>Enter your phone no.</td>
+					<td><input type="text" name="phone_no" required><br><br></td>
+				</tr>
+				<tr>
+					<td>Enter your address</td>
+					<td><input type="text" name="address" required><br><br></td>
+				</tr>
+			</table>
+			<br>
+			<input type="submit" value="Submit" name="Submit">
+			<br>
+				</div>
+
+		</form>
+	</body>
+</html>
