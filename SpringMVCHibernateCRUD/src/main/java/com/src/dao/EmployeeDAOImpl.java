@@ -3,6 +3,8 @@ package com.src.dao;
 import java.util.List;
 
 import org.hibernate.SessionFactory;
+
+import org.jboss.logging.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -13,10 +15,11 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 
 	@Autowired
 	private SessionFactory sessionFactory;
-
+	private static final Logger logger = Logger.getLogger(EmployeeDAOImpl.class);
 	public void addEmployee(Employee employee) {
 		sessionFactory.getCurrentSession().saveOrUpdate(employee);
 
+		logger.info("Employee saved successfully");
 	}
 
 	@SuppressWarnings("unchecked")
