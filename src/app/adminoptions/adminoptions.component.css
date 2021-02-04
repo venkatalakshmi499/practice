@@ -1,0 +1,20 @@
+div{
+    background: url(/assets/images/img6.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    padding-left: 350px;
+    padding-top: 200px;
+    padding-right: 250px;
+    min-width: 210vh;
+}
+.btn1{
+    padding:10px;
+    background-color:rgb(59, 23, 9);
+    color:paleturquoise
+}
+.btn2{
+ 
+    padding:10px;
+    background-color:hotpink;
+    color:paleturquoise
+}

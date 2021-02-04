@@ -1,0 +1,11 @@
+body{
+    padding-top: 210px;
+    background: url(/assets/images/img9.jpg);
+    /* opacity: ; */
+    opacity: 0.9;
+    background-size: cover;
+    min-height: 98vh;
+    padding-right: 290px;
+    color: white;
+
+}
